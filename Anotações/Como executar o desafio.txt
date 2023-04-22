@@ -1,0 +1,54 @@
+#INICIO - NO GITHUB
+
+CRIAR UMA CONTA DO GITHUB
+CRIAR UM NOVO REPOSITÓRIO
+NOMEAR O REPOSITÓRIO
+	dio.desafio.github
+EDITAR TÍTULO DO REPOSITÓRIO
+	Primeiro Repositório
+EDITAR A DESCRIÇÃO DO REPOSITÓRIO
+	Desafio de Projeto sobre Git/GitHub da DIO realizado no dia 22/04/2023.
+ADICIONAR LINKS UTEIS NA DESCRIÇÃO [nome do link](url)
+	##Links Úteis
+	[Download Git Bash](https://git-scm.com/download/win)
+	[Sintaxe Basica Markdowns](https://www.markdownguide.org/basic-syntax/)
+SALVAR ALTERAÇÕES
+	commit changes
+FIM
+
+
+
+#AGORA VAMOS CLONAR O REPOSITÓRIO LOCALMENTE NO PC
+
+CRIE UMA PASTA
+	C:\Users\anamu\OneDrive\Documentos\GitHub\DIO\dio.desafio.github-primeirorepositorio
+COM A PASTA ABERTA, CLICA COM BOTÃO DIREITO DO MOUSE, MOSTRAR MAIS
+	Git Bash Here
+GIT BASH ABERTO, AGORA INSIRA O COMANDO PARA CLONAR E COPIE E COLE O LINK DO REPOSITORIO HTTPS
+	git clone https://github.com/anapaulaalcantara/dio.desafio.github-primeirorepositorio.git
+	OBS: PARA COLAR USE CLICK COM BOTÃO DIRETO DO MOUSE
+FIM
+	
+
+
+#CRIANDO UM ARQUIVO DE TEXTO LOCAL E ADICIONANDO AO GITHUB
+
+CRIE UMA PASTA
+CRIE UM ARQUIVO DE TEXTO E SALVE NESSA PASTA
+NO GIT DASH USE O COMANDO PARA ADICIONAR O NOVO ARQUIVO NA VERSÃO LOCAL
+	git add .
+PARA ADICIONAR A DESCRIÇÃO DA ATUALIZAÇÃO
+	git commit -m "Inclusão das anotações que descrevem as etapas desse desafio"
+PARA EFETUAR O PUSH DAS ALTERAÇÕES LOCAIS PARA O REPOSITÓRIO ONLINE
+	git push origin main
+FIM
+
+
+
+RESUMO DOS COMANDOS USADOS NESSE DESAFIO NO GIT DASH
+
+CLONAR O REPORIÓRIO: git clone
+VERIFICAR STATUS: git status
+ADICIONAR NOVO ARQUIVO NA VERSÃO LOCAL: git add .
+ADICIONAR A DESCRIÇÃO DA ATUALIZAÇÃO: git commit -m "descrição da atualização"
+EFETUAR PUSH DAS ALTERAÇÕES LOCAIS PARA O REPERTÓRIO ONLINE: git push origin main
